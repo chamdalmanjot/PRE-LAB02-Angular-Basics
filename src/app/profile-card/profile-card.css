@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+.profile-card {
+  margin: 20px 0;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, #f4f9ff 0%, #e7f1ff 100%);
+  border: 1px solid #8ec1ff;
+  border-left: 6px solid #1e6fd9;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(19, 71, 143, 0.15);
+  font-family: 'Poppins', Arial, sans-serif;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(19, 71, 143, 0.25);
+}
+
+.profile-card h2 {
+  margin-top: 0;
+  color: #13478f;
+}
+
+.profile-card p {
+  color: #1c2b3f;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #1e6fd9;
+  color: #ffffff;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
